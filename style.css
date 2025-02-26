@@ -1,0 +1,84 @@
+body{
+    height: 100vh;
+    margin: 0px;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('keyboard_bg.jpg');
+    /* background-image: url('./keyboard.jpg'); */
+    /* background-image: url('./bg.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: burlywood; */
+}
+
+.login-form-box{
+    border: 1px solid;
+    padding: 5px 20px 15px 20px;
+    height: 290px;
+    background-color: white;
+}
+
+.signup-form-box{
+    border: 1px solid;
+    padding: 5px 20px 15px 20px;
+    height: 325px;
+    background-color: white;
+}
+
+#form-title{
+    text-align: center;
+    margin: 5px;
+    color: brown;
+    font-size: larger;
+    font-weight: bold;
+}
+
+input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#submit-btn{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+#submit-btn:hover{
+    background-color: rgb(81, 81, 206);
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+  }
+
+.google-btn,.fb-btn {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+.google-btn:hover,.fb-btn:hover,input:hover{
+    cursor: pointer;
+}
+
+.google-btn:hover,.fb-btn:hover{
+    font-size:large;
+}
+
+i{
+    float: left;
+}
+
